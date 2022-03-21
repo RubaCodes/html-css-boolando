@@ -13,4 +13,15 @@
 }
 .wrapper{
     max-width: 1080px;
+    margin: auto;
+}
+
+/* Sezione colonne */
+.col{
+    width: calc(100% / 3 - 20px);
+    float: left;
+}
+.col img{
+    width: 100%;
+    margin: 0 10px;
 }
