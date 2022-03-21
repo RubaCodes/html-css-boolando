@@ -17,9 +17,14 @@
 }
 
 /* Sezione colonne */
+.row{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
 .col{
     width: calc(100% / 3 - 20px);
     float: left;
+    position: relative;
 }
 .col img{
     width: 100%;
