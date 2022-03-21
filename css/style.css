@@ -50,16 +50,21 @@
     position: absolute;
     color: white;
     background-color: #00875a;
-    bottom: 40px; 
+    bottom: 30px; 
     left: 50px;
     padding: 2px;
 }
+
 .discount-label{
    color: white;
    background-color: #e84369;
    padding: 2px;
    position: absolute;
-   bottom: 40px; 
+   bottom: 30px; 
+}
+/* fix ignorantissimo per l'ultimo label sostenibilita */
+.row:last-child .sostenibilita-label:nth-child(3){
+    left: 0;
 }
 /* Styling didascalie */
 .col .brand{
@@ -70,8 +75,10 @@
 }
 .col .price{
     color: red;
+    font-weight: bold;
 }
 .col .discount{
     text-decoration:line-through;
     color: black;
+    font-weight: bold;
 }
