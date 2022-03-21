@@ -32,7 +32,7 @@
     width: 100%;
     
 }
-/* Overlay items */
+/* Overlay items/labels */
 .heart{
     height: 40px;
     width: 40px;
@@ -52,7 +52,6 @@
     left: 50px;
     padding: 2px;
 }
-
 .discount-label{
    color: white;
    background-color: #e84369;
@@ -67,13 +66,16 @@
 /* Styling didascalie */
 .col .brand{
     text-transform: capitalize;
+    font-size: smaller;
 }
 .col h3{
     text-transform: uppercase;
+    font-size:medium;
 }
 .col .price{
     color: red;
     font-weight: bold;
+    font-size:small;
 }
 .col .discount{
     text-decoration:line-through;
