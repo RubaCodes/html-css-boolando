@@ -45,26 +45,22 @@
     vertical-align: middle;
     line-height: 40px;
 }
-.sostenibilita-label{
+.sostenibilita-label, .discount-label{
     position: absolute;
-    color: white;
-    background-color: #00875a;
-    bottom: 30px; 
-    left: 50px;
-    padding: 2px;
-    font-size: small;
+    color: white;  
+    font-size: 10px;
     padding: 4px;
     font-weight: bold;
 }
+.sostenibilita-label{
+
+    background-color: #00875a;
+    bottom: 30px; 
+    left: 40px;
+}
 .discount-label{
-   color: white;
    background-color: #e84369;
-   padding: 2px;
-   position: absolute;
    bottom: 30px; 
-   font-size: small;
-   padding: 4px;
-   font-weight: bold;
 }
 /* fix ignorantissimo per l'ultimo label sostenibilita */
 .row:last-child .col:last-child .sostenibilita-label:last-child{
