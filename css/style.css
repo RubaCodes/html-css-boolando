@@ -51,6 +51,9 @@
     bottom: 30px; 
     left: 50px;
     padding: 2px;
+    font-size: small;
+    padding: 4px;
+    font-weight: bold;
 }
 .discount-label{
    color: white;
@@ -58,6 +61,9 @@
    padding: 2px;
    position: absolute;
    bottom: 30px; 
+   font-size: small;
+   padding: 4px;
+   font-weight: bold;
 }
 /* fix ignorantissimo per l'ultimo label sostenibilita */
 .row:last-child .col:last-child .sostenibilita-label:last-child{
