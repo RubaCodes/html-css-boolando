@@ -64,6 +64,8 @@
    bottom: 30px; 
 }
 /* fix ignorantissimo per l'ultimo label sostenibilita */
+
+/* soluzione con span in un div semplifica velocemente la gestione della posizione delle label */
 .row:last-child .col:last-child .sostenibilita-label:last-child{
     left: 0;
 }
