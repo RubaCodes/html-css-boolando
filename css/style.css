@@ -31,7 +31,8 @@
 }
 .col img{
     width: 100%;
-    
+    display: block;
+    /* necessario per non avere quei quattro pixel nell'hover */
 }
 /* Overlay items/labels */
 .heart{
