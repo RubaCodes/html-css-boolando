@@ -11,6 +11,7 @@
     clear: both;
 }
 .wrapper{
+    font-family: 'Roboto', sans-serif;
     max-width: 1080px;
     margin: auto;
 }
